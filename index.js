@@ -1,1 +1,7 @@
-console.log('1.+10\n2.+20\n3.+48\n4.+12\n5.+20');
+$(document).ready(function(){
+    $(".hamburger").click(function(){
+      $(this).toggleClass("is-active");
+      $(".header__list").toggleClass("is-active");
+      $(".header__nav").toggleClass("is-active");
+    });
+});
